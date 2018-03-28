@@ -1,0 +1,42 @@
+  /* Main menu styling ======================================================================== */
+  .navbar{
+    margin-top: 1em;
+    background-image: url("IMAGE_URL"), linear-gradient(to bottom right, red, yellow);
+    background-color: tomato;
+}
+.navbar-toggler-icon{
+   color:black;
+    background-color: white;
+}
+.nav-item{
+    color: white;
+    border-left: solid 1px white;
+}
+
+.navbar-brand{
+    color: ghostwhite;
+    background-color:blue;
+    padding: 0.5em;
+    border: solid 1px blue;
+    border-radius: 10px;
+}
+.nav-item:hover{
+    color: gold;
+    
+}
+.navbar-brand:hover{
+    color: gold;
+}
+
+.navactive{
+    background-color: orange;
+}
+/* mobile menu text spacing fix */
+@media only screen and (max-width: 600px) {
+    .nav-item>*{
+      margin-left: 15px;
+    }
+    .navbar-brand{
+        margin-bottom: 0.5em;
+}
+}
